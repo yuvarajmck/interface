@@ -5,6 +5,8 @@ public class Main {
         show();
     }
     public static void show(){
+        //lambda func
+        greet(msg->System.out.println(msg));
         greet(new Printer() {
             @Override
             public void print(String msg) {
