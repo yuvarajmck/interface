@@ -5,7 +5,12 @@ public class Main {
         show();
     }
     public static void show(){
-        greet(new ConsolePrinter());
+        greet(new Printer() {
+            @Override
+            public void print(String msg) {
+                System.out.println(msg );
+            }
+        });
     }
 
     public static void greet(Printer printer){
