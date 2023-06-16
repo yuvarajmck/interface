@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ce7dcb-8592-4a66-baa5-97277d0c592e" name="Changes" comment="Interface_v0">
+    <list default="true" id="f9ce7dcb-8592-4a66-baa5-97277d0c592e" name="Changes" comment="InterfaceAndLambda_v1">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686898951501</updated>
-      <workItem from="1686898952504" duration="2121000" />
+      <workItem from="1686898952504" duration="2536000" />
     </task>
     <task id="LOCAL-00001" summary="Interface Initialization">
       <created>1686900553123</created>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686900850928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="InterfaceAndLambda_v1">
+      <created>1686901217598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686901217598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Interface Initialization" />
     <MESSAGE value="Interface_v0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface_v0" />
+    <MESSAGE value="InterfaceAndLambda_v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="InterfaceAndLambda_v1" />
   </component>
 </project>

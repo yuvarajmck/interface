@@ -7,6 +7,8 @@ public class Main {
     public static void show(){
         //lambda func
         greet(msg->System.out.println(msg));
+        greet(System.out::println);
+        Printer printer = System.out::println;
         greet(new Printer() {
             @Override
             public void print(String msg) {
