@@ -4,8 +4,13 @@ public class Main {
         x.print("hello");
         show();
     }
+    public void print(String msg){
+
+    }
     public static void show(){
         //lambda func
+        var demo = new Main();
+        greet(demo::print);
         greet(msg->System.out.println(msg));
         greet(System.out::println);
         Printer printer = System.out::println;
@@ -16,6 +21,8 @@ public class Main {
             }
         });
     }
+
+
 
     public static void greet(Printer printer){
         printer.print("hello");
